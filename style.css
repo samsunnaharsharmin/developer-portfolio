@@ -6,7 +6,9 @@ h1{
     font-size: 50px;
 }
 .orange-color{color :orange}
-section {display: flex;}
+section {display: flex;
+margin-bottom: 150px;}
+
 .half-width{
     width: 50%;
     padding-left: 5%;
@@ -17,8 +19,9 @@ section {display: flex;}
 }
 .link-button {
     text-decoration: none;
-   background-image: -moz-linear-gradient(orange tomato);
+   background-image: -moz-linear-gradient(rgb(221, 155, 32) rgb(185, 128, 118));
     padding: 10px 40px;
+    background-color: orange;
     color: white;
     font-weight: 700;
     border-radius: 5px;
@@ -26,3 +29,12 @@ section {display: flex;}
 .top-banner {background-image: url(top-banner.png);
 background-repeat: no-repeat;
 }
+.dream-big{
+    background-image: url(dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.img{
+    width: 200px;%;
+}
+    
